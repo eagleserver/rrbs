@@ -4,10 +4,6 @@ All fonts and icons in this website are used acording to license agreement detai
 Acording license agreement published by freewebsitetemplates.com
 Copyrigth 2015 - Red Rose Body Shop*/
 
-/*@font-face {
-	font-family: 'Jura';
-	src: url('../fonts/Jura/Jura-Medium.ttf') format('truetype');
-}*/
 @font-face {
 	font-family: 'Jura';
 	src: url('../fonts/Jura/Jura-Regular.ttf') format('truetype');
@@ -93,6 +89,7 @@ body {
 	background: url(../images/menutopbar.jpg) repeat-x bottom left;
 	margin: 0;
 	padding: 0;
+	border-radius: 5px;
 }
 #header .navigation > ul > li {
 	display: block;
@@ -165,6 +162,7 @@ body {
 	padding: 0 14px;
 	text-decoration: none;
 	text-transform: capitalize;
+	border-radius: 3px;
 }
 #header .navigation ul ul li a:hover {
 	background: #e9e9e9;
@@ -173,7 +171,7 @@ body {
 #body {
 	min-height: 600px;
 	margin: 0;
-	padding: 0 0 1px;
+	padding: 0;
 }
 /*Class created by Red Rose Body Shop*/
 #bodyabout {
@@ -201,6 +199,7 @@ body {
 	margin: 0 auto 0px;
 	padding: 0;
 	width: 940px;
+	border-radius: 5px;
 }
 #body .header ul {
 	background: url(../images/headbar1.jpg) repeat-x bottom left;
@@ -237,7 +236,7 @@ body {
 #body .header ul li div {
 	float: left;
 	margin: 0;
-	padding: 10px 10px 0 18px;
+	padding: 10px 10px 0 1opx;
 	width: 280px;
 }
 #body .header ul li div h3 {
@@ -249,6 +248,7 @@ body {
 	margin: 0;
 	padding: 0 0 14px;
 	text-transform: capitalize;
+	text-align: center;
 }
 #body .header ul li div h3 a {
 	color: #961616;
@@ -265,8 +265,9 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0;
+	margin: 0 0 0 15px;
 	padding: 0;
+	text-align: justify;
 }
 #body .header ul li div p a {
 	color: #7a7a7a;
@@ -284,6 +285,7 @@ body {
 	overflow: hidden;
 	padding: 0;
 	width: 940px;
+	border-radius: 5px;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal {
@@ -297,6 +299,7 @@ body {
 	width: 940px;
 	min-height: 600px;
 	height: auto !important;
+	border-radius: 10px;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal2 {
@@ -310,6 +313,7 @@ body {
 	width: 940px;
 	min-height: 600px;
 	height: auto !important;
+	border-radius: 10px;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal3 {
@@ -323,6 +327,7 @@ body {
 	width: 940px;
 	min-height: 600px;
 	height: auto !important;
+	border-radius: 10px;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal div {
@@ -347,6 +352,7 @@ body {
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal h1{
 	padding: 15px 80px 0 80px;
+	text-align: justify;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal2 h1{
@@ -355,6 +361,7 @@ body {
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal3 h1{
 	padding: 15px 80px 0 80px;
+	text-align: justify;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal h1 img{
@@ -450,6 +457,7 @@ body {
 	padding: 0;
 	width: 940px;
 	min-height: 598px;
+	border-radius: 10px;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodyvid div {
@@ -460,6 +468,7 @@ body {
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodyvid h1{
 	padding: 15px 80px 0 80px;
+	text-align: justify;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodyvid h1 img{
@@ -578,13 +587,15 @@ body {
 	-webkit-box-shadow: 0px -1px 3px rgba(50, 50, 52, 0.5);
 	-moz-box-shadow: 0px -1px 3px rgba(50, 50, 52, 0.5);
 	box-shadow: 0px -1px 3px rgba(50, 50, 52, 0.5);
-	margin: 0;
-	padding: 0 0 0 0;
+	margin: 0 auto;
+	padding: 0;
+	width: 940px;
+	border-radius: 15px;
 }
 #body .footer > div {
 	margin: 0 auto;
 	padding: 0 0 0 0;
-	width: 1300px;
+	width: 950px;
 }
 #body .footer div h2 {
 	background: url(../images/horbared.jpg) repeat-x 0 12px;
@@ -606,15 +617,15 @@ body {
 #body .footer div ul {
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 0 0 0 145px;
+	padding: 0;
 }
 #body .footer div ul li {
 	float: left;
 	list-style: none;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 25px 0 25px 0;
-	width: 550px;
+	padding: 15px 0 15px 10px;
+	width: 465px;
 }
 #body .footer div ul li .figure {
 	display: block;
@@ -635,7 +646,7 @@ body {
 	float: left;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-	width: 400px;
+	width: 380px;
 }
 #body .footer div ul li div h3 {
 	color: #7a7a7a;
@@ -643,7 +654,7 @@ body {
 	font-size: 30px;
 	font-weight: normal;
 	margin: 0 0 0 0;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 10px;
 	text-transform: capitalize;
 }
 #body .footer div ul li div h3 a {
@@ -661,7 +672,8 @@ body {
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 10px;
+	text-align: justify;
 }
 #body .footer div ul li div p a {
 	color: #7a7a7a;
@@ -680,6 +692,7 @@ body {
 	overflow: hidden;
 	padding: 0;
 	width: 940px;
+	border-radius: 10px;
 }
 #body .content .section {
 	float: left;
@@ -694,6 +707,7 @@ body {
 	font-size: 17px;
 	margin: 0;
 	padding: 0;
+	text-align: justify;
 }
 #body .content .section p a {
 	color: #7a7a7a;
@@ -870,456 +884,6 @@ body {
 #body .content .section .team ul li a.figure {
 	margin: 0 0 15px;
 }
-#body .content .section .gallery {
-	margin: 0;
-	padding: 0;
-}
-#body .content .section .gallery h2 {
-	padding: 20px 0 0 40px;
-}
-#body .content .section .gallery ul {
-	margin: 0;
-	overflow: hidden;
-	padding: 25px 0 0;
-}
-#body .content .section .gallery ul li {
-	display: block;
-	float: left;
-	list-style: none;
-	margin: 0 0 0 40px;
-	padding: 0 0 20px;
-	width: 262px;
-}
-#body .content .section .gallery ul li h4 {
-	color: #7a7a7a;
-	font-family: 'Lato-Light';
-	font-size: 18px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0 0 15px;
-	text-transform: capitalize;
-}
-#body .content .section .gallery ul li h4 a {
-	color: #7a7a7a;
-	text-decoration: none;
-}
-#body .content .section .gallery ul li h4 a:hover {
-	color: #fcac00;
-}
-#body .content .section .gallery a.figure {
-	display: block;
-	margin: 0 0 15px;
-	padding: 0;
-}
-#body .content .section .gallery a.figure:hover {
-	opacity: 0.8;
-}
-#body .content .section .gallery a.figure img {
-	border: 1px solid #dfdfdf;
-	display: block;
-	padding: 5px;
-}
-#body .content .section .gallery > a.figure {
-	margin: 25px 0 10px 40px;
-}
-#body .content .section .gallery div {
-	margin: 0;
-	overflow: hidden;
-	padding: 0 40px;
-}
-#body .content .section .gallery div span {
-	display: block;
-	float: left;
-	margin: 0;
-	overflow: hidden;
-}
-#body .content .section .gallery div span span {
-	color: #7a7a7a;
-	display: block;
-	height: 18px;
-	line-height: 18px;
-	padding: 0 10px;
-}
-#body .content .section .gallery div > span {
-	padding: 6px 0 0;
-	width: 75px;
-}
-#body .content .section .gallery div span a {
-	background: url(../images/interface.png) no-repeat;
-	display: block;
-	float: left;
-	height: 18px;
-	margin: 0;
-	padding: 0;
-	text-indent: -99999px;
-	width: 18px;
-}
-#body .content .section .gallery div span a.prev {
-	background-position: 0 -120px;
-}
-#body .content .section .gallery div span a.prev:hover {
-	background-position: -24px -120px;
-}
-#body .content .section .gallery div span a.next {
-	background-position: 0 -151px;
-}
-#body .content .section .gallery div span a.next:hover {
-	background-position: -24px -151px;
-}
-#body .content .section .gallery div p {
-	float: right;
-	padding: 0;
-	width: 440px;
-}
-#body .content .section .testimonials {
-	margin: 0;
-	overflow: hidden;
-	padding: 0 40px;
-}
-#body .content .section .testimonials h2 {
-	clear: both;
-	margin: 0 0 10px;
-}
-#body .content .section .testimonials div {
-	background: url(../images/bg-sidebar.png) repeat-y;
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 266px;
-}
-#body .content .section .testimonials div form {
-	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
-	margin: 0;
-	padding: 0 0 27px;
-}
-#body .content .section .testimonials div form span {
-	background: url(../images/bg-sidebar-top.png) no-repeat top left;
-	color: #7a7a7a;
-	display: block;
-	font-family: 'Lato-Light';
-	font-size: 18px;
-	font-weight: normal;
-	margin: 0;
-	padding: 20px 21px;
-	text-transform: capitalize;
-}
-#body .content .section .testimonials div form label {
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0 23px 0 21px;
-	text-transform: capitalize;
-}
-#body .content .section .testimonials div form input {
-	background: url(../images/interface.png) no-repeat 0 -411px;
-	border: 0;
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	height: 24px;
-	line-height: 24px;
-	margin: 7px 0 20px;
-	padding: 0 5px;
-	width: 211px;
-}
-#body .content .section .testimonials div form label textarea {
-	background: url(../images/interface.png) no-repeat -425px -179px;
-	border: 0;
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	height: 204px;
-	margin: 7px 0 11px;
-	overflow: auto;
-	padding: 10px 5px;
-	width: 211px;
-	resize: none;
-}
-#body .content .section .testimonials div form #submitBtn {
-	background-position: -276px -476px;
-	cursor: pointer;
-	height: 31px;
-	margin: 0 0 0 21px;
-	padding: 0;
-	width: 220px;
-}
-#body .content .section .testimonials div form #submitBtn:hover {
-	background-position: -407px -604px;
-}
-#body .content .section .testimonials ul {
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 294px;
-}
-#body .content .section .testimonials ul li {
-	background: url(../images/border2.gif) no-repeat top right;
-	list-style: none;
-	margin: 0;
-	padding: 25px 0 29px;
-}
-#body .content .section .testimonials ul li:first-child {
-	background: none;
-	padding: 11px 0 29px;
-}
-#body .content .section .testimonials ul li p {
-	background: url(../images/icons.png) no-repeat 12px -200px;
-	padding: 0 0 0 37px;
-}
-#body .content .section .testimonials ul li span {
-	color: #7a7a7a;
-	display: block;
-	margin: 0;
-	padding: 16px 0 0 37px;
-	text-transform: capitalize;
-}
-#body .content .section .testimonials ul li span b {
-	display: block;
-	font-family: 'PT_Sans-Web-Bold';
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0 0 15px;
-}
-#body .content .section .services {
-	margin: 0;
-	padding: 0 40px;
-}
-#body .content .section .services ul {
-	margin: 0;
-	padding: 25px 0 0;
-}
-#body .content .section .services ul li {
-	list-style: none;
-	margin: 0;
-	overflow: hidden;
-	padding: 0 0 24px;
-}
-#body .content .section .services ul li a.figure {
-	display: block;
-	float: left;
-	margin: 5px 0 0;
-	padding: 0;
-}
-#body .content .section .services ul li a.figure:hover {
-	opacity: 0.8;
-}
-#body .content .section .services ul li a.figure img {
-	border: 1px solid #dfdfdf;
-	display: block;
-	padding: 5px;
-}
-#body .content .section .services ul li div {
-	float: left;
-	margin: 0;
-	padding: 0 0 0 39px;
-	width: 339px;
-}
-#body .content .section .services ul li div h3 {
-	padding: 0 0 15px;
-}
-#body .content .section .promo {
-	margin: 0;
-	padding: 0;
-}
-#body .content .section .promo h2 {
-	padding: 0 0 0 40px;
-}
-#body .content .section .promo ul {
-	margin: 0;
-	overflow: hidden;
-	padding: 25px 0 0;
-}
-#body .content .section .promo ul li {
-	display: block;
-	float: left;
-	list-style: none;
-	margin: 0 0 0 40px;
-	padding: 0;
-	width: 266px;
-}
-#body .content .section .promo ul li a {
-	display: block;
-	margin: 0;
-	padding: 0;
-}
-#body .content .section .promo ul li a:hover {
-	opacity: 0.8;
-}
-#body .content .section .promo ul li a img {
-	border: 0;
-}
-#body .content .section .contact, #body .content .section .booking {
-	margin: 0;
-	padding: 15px 0 0 10px;
-	width: 605px;
-}
-#body .content .section .contact h2, #body .content .section .booking h2 {
-	padding: 0 0 25px;
-}
-#body .content .section .contact form {
-	margin: 0;
-	padding: 24px 0 0;
-}
-#body .content .section .contact form label {
-	margin: 0;
-	padding: 0;
-}
-#body .content .section .contact form label span {
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-	padding: 10px 0;
-	text-transform: capitalize;
-}
-#body .content .section .contact form input {
-	background: url(../images/interface.png) no-repeat 0 -353px;
-	border: 0;
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	height: 24px;
-	line-height: 24px;
-	margin: 0;
-	padding: 0 5px;
-	width: 331px;
-}
-#body .content .section .contact form #send {
-	background-position: -453px -440px;
-	height: 31px;
-	margin: 18px 0 0;
-	padding: 0;
-	width: 164px;
-}
-#body .content .section .contact form #send:hover {
-	background-position: -407px -531px;
-}
-#body .content .section .contact form textarea {
-	background: url(../images/interface.png) no-repeat 0 -179px;
-	border: 0;
-	color: #7a7a7a;
-	height: 159px;
-	margin: 0;
-	overflow: auto;
-	padding: 5px;
-	resize: none;
-	width: 408px;
-}
-/*#body .content .section .booking form {
-	margin: 0;
-	padding: 0 0 25px;
-}
-#body .content .section .booking form h4 {
-	color: #7a7a7a;
-	font-family: 'Lato-Light';
-	font-size: 18px;
-	font-weight: normal;
-	margin: 0;
-	padding: 25px 0 5px;
-	text-transform: capitalize;
-}
-#body .content .section .booking form label, #body .content .section .booking form input, #body .content .section .booking form span, #body .content .section .booking form textarea, #body .content .section .booking form select {
-	color: #7a7a7a;
-	display: block;
-	font-family: 'PT_Sans-Web-Regular';
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-}
-#body .content .section .booking form span {
-	line-height: 24px;
-	padding: 10px 0 5px;
-	text-transform: capitalize;
-}
-#body .content .section .booking form input {
-	background: url(../images/interface.png) no-repeat;
-	border: 0;
-	height: 24px;
-	line-height: 24px;
-	padding: 0 5px;
-}
-#body .content .section .booking form div {
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}
-#body .content .section .booking form div div {
-	float: left;
-	min-height: 37px;
-	width: 260px;
-}
-#body .content .section .booking form label {
-	float: left;
-}
-#body .content .section .booking .form1 input {
-	background-position: 0 -382px;
-	width: 250px;
-}
-#body .content .section .booking .form2 div input {
-	background-position: -277px -382px;
-	width: 110px;
-}
-#body .content .section .booking form #confirm2 {
-	width: 260px;
-}
-#body .content .section .booking form #confirm2 span {
-	padding: 49px 0 5px;
-}
-#body .content .section .booking form #confirm {
-	background-position: 0 -382px;
-	width: 250px;
-}
-#body .content .section .booking form #city, #body .content .section .booking form #state {
-	background: url(../images/interface.png) no-repeat -277px -382px;
-	border: 0;
-	height: 24px;
-	width: 120px;
-}
-#body .content .section .booking form #schedule {
-	background: url(../images/interface.png) no-repeat 0 -382px;
-	border: 0;
-	height: 24px;
-	width: 260px;
-}
-#body .content .section .booking form textarea {
-	background: url(../images/interface.png) no-repeat -85px -1px;
-	border: 0;
-	height: 158px;
-	overflow: auto;
-	padding: 5px;
-	resize: none;
-	width: 550px;
-}
-#body .content .section .booking form #fname, #body .content .section .booking form #email3, #body .content .section .booking form #address1, #body .content .section .booking form #address2, #body .content .section .booking .form2 div {
-	margin: 0 40px 0 0;
-}
-#body .content .section .booking form #city, #body .content .section .booking form #brand, #body .content .section .booking form #year {
-	margin: 0 20px 0 0;
-}
-#body .content .section .booking form #send2 {
-	background-position: -453px -440px;
-	height: 31px;
-	margin: 19px 0 0;
-	padding: 0;
-	width: 164px;
-}
-#body .content .section .booking form #send2:hover {
-	background-position: -407px -531px;
-}*/
 #body .content .sidebar {
 	float: left;
 	margin: 0 5px 0 0;
@@ -1381,72 +945,6 @@ body {
 	height: 25px;
 	line-height: 25px;
 	padding: 0 0 10px 39px;
-}
-#body .content .sidebar .post {
-	background: url(../images/bg-sidebar.png) repeat-y;
-	margin: 0 0 24px 18px;
-	width: 266px;
-}
-#body .content .sidebar .post h3 {
-	background: url(../images/bg-sidebar-top.png) no-repeat top left;
-	height: 50px;
-	padding: 0 20px 0 23px;
-}
-#body .content .sidebar .post ul {
-	background: url(../images/bg-sidebar-bottom.png) no-repeat bottom left;
-	padding: 0 23px 10px 21px;
-}
-#body .content .sidebar .post ul li {
-	background: url(../images/bg-sidebar-nav.gif) no-repeat top center;
-	overflow: hidden;
-	padding: 5px 0;
-}
-#body .content .sidebar .post ul li:first-child {
-	background: none;
-}
-#body .content .sidebar .post ul li a.figure {
-	display: block;
-	float: left;
-	margin: 8px 10px 0 0;
-	padding: 0;
-}
-#body .content .sidebar .post ul li a.figure:hover {
-	opacity: 0.8;
-}
-#body .content .sidebar .post ul li a.figure img {
-	border: 1px solid #dfdfdf;
-	display: block;
-}
-#body .content .sidebar .post ul li div {
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 162px;
-}
-#body .content .sidebar .post ul li div span {
-	display: block;
-	margin: 0;
-	padding: 0;
-}
-#body .content .sidebar .post ul li div span a {
-	color: #fcac00;
-	line-height: 24px;
-	text-decoration: none;
-}
-#body .content .sidebar .post ul li div span a:hover {
-	text-decoration: underline;
-}
-#body .content .sidebar .post ul li div p {
-	color: #7a7a7a;
-	line-height: 24px;
-	margin: 0;
-	padding: 0;
-}
-#body .content .sidebar .post ul li div p a {
-	color: #fcac00;
-}
-#body .content .sidebar .post ul li div p a:hover {
-	color: #f3be4b;
 }
 #body .content .sidebar .contact {
 	/*background: url(../images/bg-sidebar.png) repeat-y;*/
@@ -1651,7 +1149,7 @@ body {
 	/*font-family: 'PT_Sans-Web-Regular';*/
 	font-family: 'Jura';
 	font-weight: normal;
-	margin: 1px auto;
+	margin: 0px auto;
 	padding: 0;
 	width: 940px;
 }
@@ -1666,6 +1164,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	padding: 25px 0px;
+	border-radius: 15px;
 }
 #footer > div:first-child {
 	-webkit-box-shadow: 1px 0px 3px rgba(52, 50, 50, 0.5);
@@ -1704,7 +1203,7 @@ body {
 	font-size: 25px;
 	font-weight: bold;
 	margin: 0;
-	padding: 0 0px 10px 180px;
+	padding: 0 0px 10px 170px;
 	text-transform: capitalize;
 }
 #footer div .contact ul li b {
