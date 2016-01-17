@@ -21,6 +21,7 @@ body {
 #body .content .section .contact img{
 	border: 1px solid #fff;
 	padding: 5px;
+	border-radius: 8px;
 }
 #header {
 	margin: 0;
@@ -120,13 +121,6 @@ body {
 #header .navigation > ul > li > a:hover {
 	color: #e2e2e2;
 }
-/*#header .navigation > ul > li.booking > a {
-	color: #961616;
-	font-family: 'Lato-Black';
-}
-#header .navigation > ul > li.booking > a:hover {
-	color: #f3be4b;
-}*/
 #header .navigation ul ul {
 	left: -99999px;
 	margin: 0;
@@ -361,6 +355,7 @@ body {
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal3 h1{
 	padding: 15px 80px 0 80px;
+	text-align: justify;
 }
 /*Class Created by Red Rose Body Shop Web Master*/
 #body .bodygal h1 img{
@@ -715,7 +710,7 @@ body {
 #body .content .section p a:hover {
 	color: #4c4c4c;
 }
-#body .content .section .breadcrumb {
+/*#body .content .section .breadcrumb {
 	background: url(../images/border.png) repeat-x bottom left;
 	margin: 0 0 20px 38px;
 	overflow: hidden;
@@ -758,7 +753,7 @@ body {
 }
 #body .content .section .breadcrumb ul li a:hover {
 	color: #f3be4b;
-}
+}*/
 #body .content .section div h2 {
 	color: #961616;
 	font-family: 'Jura';
@@ -853,6 +848,7 @@ body {
 	border: 1px solid #ffffff;
 	display: block;
 	padding: 5px;
+	border-radius: 8px;
 }
 #body .content .section .team div a.figure {
 	float: left;
@@ -965,6 +961,7 @@ body {
 	border: 1px solid #ffffff;
 	display: block;
 	padding: 5px;
+	border-radius: 8px;
 }
 #body .content .sidebar .contact h3 {
 	background: url(../images/bg-sidebar-top.png) no-repeat top left;
